@@ -1,11 +1,11 @@
 # Intro to Natural Language Processing
-## Setup Instructions:
+## Setup Instructions
 Follow the instructions below to get setup for the NLP training session. Use git to download the repository for the session and do a final ```$ git pull``` the day before the training to make sure all the content is up to date. I'll be actively working on the content until close to the day of the training, so make sure to update the day before the training. I'm using Conda to manage and create the python environment in the steps below. For an in-depth explanation of this workflow see the excellent bog post by Tim Hopper, [My Python Environment Workflow with Conda](https://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/).
 
 ### 1. Install Anaconda or MiniConda
 *If you already have Anaconda or Miniconda installed, skip to step 2.*
 
-#### Install Anaconda (Recommended):
+#### Install Anaconda (Recommended)
 Download the python 3.6 version of Anaconda for your system from here:
 [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
 

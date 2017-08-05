@@ -119,26 +119,39 @@ Navigate to the FARCON_NLP directory in command line. From within the directory 
 ```
 $ jupyter notebook
 ```
+
+If your default browser doesn't launch with the Jupyter Notebook home page automaticly, check back in your terminal window. You'll probably see an error message like this:
+
+```
+Copy/paste this URL into your browser when you connect for the first time, to login with a token:
+
+http://localhost:8888/?token=cf6d21cbb1fbd2c1ce677607c2300bf56e213b93917efc15
+69:77: 
+
+execution error: Can’t get application "chrome". (-1728)
+```
+Follow the error instructions and copy the full link containing the security token into your browser address bar and hit enter. Your browser should then load the Jupyter Notebook home screen, as shown below:
+
+![Jupyter Notebook Home](img/juptyer_nb_home.png)
+
+#### Enable Extensions
+
 Click the tab named Nbextensions to go to the settings page for Jupyter Notebook extensions.
 ![Go to the Notebook Extensions Tab](img/notebook-extensions.png)
 
-Click the check box to enable collapsible headings. Collapsible headings are an extra feature in Jupyter notebook that will be helpful in the main notebook for the training session.    
+Click the check box to enable *Collapsible Headings*. Also make sure that *Freeze* is enabled (it should be enabled by default). *Collapsible Headings* and *Freeze* are an extra features in Jupyter notebook that will be helpful in the main notebook for the training session.    
 
 ![Enable Collapsible Headings](img/colapsable-headings.png)
 
 
-#### Now Run the test Notebook
-Now let's use Jupyter Notebook to perform some tests on our installation. Navigate back to the Jupyter Notebook home location by clicking the *Files* tab. Now Click on the Test.ipynb to launch the test notebook: 
+#### Now Run the Test Notebook
+Let's use Jupyter Notebook to perform some tests on our installation. Navigate back to the Jupyter Notebook home location by clicking the *Files* tab. Then, Click on *Test.ipynb* to launch the *Test* notebook: 
 
 ![Open the Test Notebook](img/test.png)
 
-Once the *Test* notebook is open hit the disclosure arrow next to the first cell. This should reveal the text in the second cell.
+Once the *Test* notebook is open press ```shift + enter``` to run the cell and proceed to the next cell. Continue on and hit ```shift + enter``` for each cell in the notebook. If each cell runs without any errors, your installation should be good. Below is what the notebook should look like after running each cell successfully.
 
-![There ](img/toggle.png)
-![There ](img/revealed.png)
-
-
-Click the cell below the *More Tests* heading and hit ```shift + enter``` to run the cell and proceed to the next cell. Continue on and hit ```shift + enter``` for each cell in the notebook. If each cell runs without any errors, your installation should be good.
+![Successful Completion of Test Notebook](img/test-complete.png)
 
 #### For a More Thorough Test:
 You can perform a more in-depth installation test for spaCy by following these instructions:

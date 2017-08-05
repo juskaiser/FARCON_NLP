@@ -113,18 +113,32 @@ FARCON_NLP
 
 ```
 
-### 6. Run the Test Notebook
-Now let's use Jupyter Notebook to perform some tests on our installation. Navigate to the FARCON_NLP directory in command line. From within the directory start Jupyter Notebook by running this command from command line:
-
+### 6. Configure Jupyter Notebook and Run the Test Notebook
+Navigate to the FARCON_NLP directory in command line. From within the directory start Jupyter Notebook by running this command from command line:
+ 
 ```
 $ jupyter notebook
 ```
+Click the tab named Nbextensions to go to the settings page for Jupyter Notebook extensions.
+![Go to the Notebook Extensions Tab](img/notebook-extensions.png)
 
-This will open up Jupyter Notebook in your browser. Click on Test.ipynb to launch the test notebook: 
+Click the check box to enable collapsible headings. Collapsible headings are an extra feature in Jupyter notebook that will be helpful in the main notebook for the training session.    
 
-![GitHub Logo](img/jnb.png)
+![Enable Collapsible Headings](img/colapsable-headings.png)
 
-Once the *Test* notebook is open hit ```shift + enter``` to run the cell and proceed to the next cell. Continue on and hit ```shift + enter``` for each cell. If each cell runs without any errors, you are good to go.
+
+#### Now Run the test Notebook
+Now let's use Jupyter Notebook to perform some tests on our installation. Navigate back to the Jupyter Notebook home location by clicking the *Files* tab. Now Click on the Test.ipynb to launch the test notebook: 
+
+![Open the Test Notebook](img/test.png)
+
+Once the *Test* notebook is open hit the disclosure arrow next to the first cell. This should reveal the text in the second cell.
+
+![There ](img/toggle.png)
+![There ](img/revealed.png)
+
+
+Click the cell below the *More Tests* heading and hit ```shift + enter``` to run the cell and proceed to the next cell. Continue on and hit ```shift + enter``` for each cell in the notebook. If each cell runs without any errors, your installation should be good.
 
 #### For a More Thorough Test:
 You can perform a more in-depth installation test for spaCy by following these instructions:

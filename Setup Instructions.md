@@ -2,6 +2,8 @@
 ## Setup Instructions
 Follow the instructions below to get setup for the NLP training session. Use git to download the repository for the session and do a final ```$ git pull``` the day before the training to make sure all the content is up to date. I'll be actively working on the content until close to the day of the training, so make sure to update the day before the training. I'm using Conda to manage and create the python environment in the steps below. For an in-depth explanation of this workflow see the excellent bog post by Tim Hopper, [My Python Environment Workflow with Conda](https://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/).
 
+*The enivronment.yml file was update on 8/17 before proceeding to step 3 make sure you have the current version. Update via ```$ git pull``` if necessary*
+
 ### 1. Install Anaconda or MiniConda
 *If you already have Anaconda or Miniconda installed, skip to step 2.*
 
@@ -17,15 +19,15 @@ If you have limited space on your system you can download Miniconda. This will o
 
 
 ### 2. Clone the Training Repository
-Use git to clone the repository for the training session down to your computer. Use git so you can easily update the contents of the training repository. Remember to update the repository by running ```$git pull``` the day before the training session to ensure contents are up to date. Here is the link to the repository: [https://github.com/juskaiser/FARCON_NLP](https://github.com/juskaiser/FARCON_NLP).
+Use git to clone the repository for the training session down to your computer. Use git so you can easily update the contents of the training repository. Remember to update the repository by running ```$ git pull``` the day before the training session to ensure contents are up to date. Here is the link to the repository: [https://github.com/juskaiser/FARCON_NLP](https://github.com/juskaiser/FARCON_NLP).
 
 Navigate to your desired installation location in command line and clone the repository with the following commands:
 
-**Via SSH:** ```git clone git@github.com:juskaiser/FARCON_NLP.git```
+**Via SSH:** ```$ git clone git@github.com:juskaiser/FARCON_NLP.git```
 
 or
 
-**Via HTTPS:** ```git clone https://github.com/juskaiser/FARCON_NLP.git```
+**Via HTTPS:** ```$ git clone https://github.com/juskaiser/FARCON_NLP.git```
 
 
 ### 3. Create your Local Environment
@@ -39,7 +41,7 @@ README.md   Test.ipynb  data    environment.yml
 
 In command line, from within the *FARCON_NLP* folder, run the following command:
 
-```conda env create -f environment.yml ```
+```$ conda env create -f environment.yml ```
 
 This will download and install the python packages needed for the training session and may take a few minutes, depending on the speed of your internet connection. 
 
@@ -86,7 +88,7 @@ See the conda documentation for more info on managing and switching between envi
 ### 4. Install the English Model for spaCy
 **Before proceeding, make sure the new conda environment, *far_nlp*, is activated (see the previous step).** The spaCy NLP package was already installed in previous step, but you need to manually install the English language model for spaCy. Install the English model by entering the following command in command line:
 
-```$ python -m spacy download en```. 
+```$ python -m spacy download en```
 
 **Note: you can enter this command from any location in the command line.*
 

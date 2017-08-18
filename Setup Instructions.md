@@ -4,6 +4,8 @@ Follow the instructions below to get setup for the NLP training session. Use git
 
 *The enivronment.yml file was update on 8/17 before proceeding to step 3 make sure you have the current version. Update via ```$ git pull``` if necessary*
 
+Here is a video of me walking through the setup on a Mac: [https://vimeo.com/230225216](https://vimeo.com/230225216).
+
 ### 1. Install Anaconda or MiniConda
 *If you already have Anaconda or Miniconda installed, skip to step 2.*
 

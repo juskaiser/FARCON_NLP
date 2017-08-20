@@ -1,13 +1,16 @@
 name: far_nlp
 channels:
+- districtdatalabs
 - conda-forge
 - defaults
 dependencies:
+- python=3
 - numpy
 - pandas
 - scikit-learn 
 - spacy
 - matplotlib
 - seaborn
+- yellowbrick
 - jupyter
 - jupyter_contrib_nbextensions

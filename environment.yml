@@ -3,6 +3,7 @@ channels:
 - districtdatalabs
 - conda-forge
 - defaults
+- bokeh/channel/dev
 dependencies:
 - python=3
 - numpy
@@ -11,6 +12,7 @@ dependencies:
 - spacy
 - matplotlib
 - seaborn
+- bokeh
 - yellowbrick
 - jupyter
 - jupyter_contrib_nbextensions

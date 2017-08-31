@@ -1,4 +1,4 @@
-# Resources for Learning Natural Language Processing#
+# Resources for Learning Natural Language Processing
 
 ##General NLP in Python
 - [Applied Text Analysis with Python (Book)](https://www.safaribooksonline.com/library/view/applied-text-analysis/9781491963036/) by  Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro

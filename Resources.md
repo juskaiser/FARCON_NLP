@@ -1,11 +1,11 @@
 # Resources for Learning Natural Language Processing
 
-##General NLP in Python
+## General NLP in Python
 - [Applied Text Analysis with Python (Book)](https://www.safaribooksonline.com/library/view/applied-text-analysis/9781491963036/) by  Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro
 - [Natural Language Text Processing with Python (Video Series](https://player.oreilly.com/videos/9781491976470) by Jonathan Mugan
 - [Natural Language Processing with Python (Book)](http://shop.oreilly.com/product/9780596516499.do) by Steven Bird, Ewan Klein, Edward Loper
 
-##SpaCy
+## SpaCy
 - [Learning Path: Mastering SpaCy for Natural Language Processing (Video Series)](https://www.safaribooksonline.com/library/view/learning-path-mastering/9781491986653/) by Aaron Kramer
 - [Natural Language Processing Made Easy – using SpaCy (​in Python) (Article)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/) by SHIVAM BANSAL 
 

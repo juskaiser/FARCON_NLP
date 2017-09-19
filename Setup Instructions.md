@@ -1,10 +1,22 @@
 # Intro to Natural Language Processing
 ## Setup Instructions
-Follow the instructions below to get setup for the NLP training session. Use git to download the repository for the session and do a final ```$ git pull``` the day before the training to make sure all the content is up to date. I'll be actively working on the content until close to the day of the training, so make sure to update the day before the training. I'm using Conda to manage and create the python environment in the steps below. For an in-depth explanation of this workflow see the excellent bog post by Tim Hopper, [My Python Environment Workflow with Conda](https://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/).
 
-*The enivronment.yml file was update on 8/17 before proceeding to step 3 make sure you have the current version. Update via ```$ git pull``` if necessary*
+There are two ways to get setup for the NLP training session. The recommended option is to setup a python environment on your local computer. 
 
-Here is a video of me walking through the setup on a Mac: [https://vimeo.com/230225216](https://vimeo.com/230225216).
+### Virtual Machine Setup (Alternative)
+If you are unable to perform the recommended install option (below), you can use a Linux virtual machine preconfigured with everything needed for the class. To go this route, download and install VirtualBox on your system: 
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads). 
+
+Then, download the file for the preconfigured virtual machine here: [https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z](https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z). If you are having trouble unzipping the file use [http://www.7-zip.org/download.html](http://www.7-zip.org/download.html). Once you unzip the file you should be able to open it with VirtualBox and start the virtual machine. There is no need to download any other files mentioned in the steps below, as they are already included in the virtual machine.
+
+
+-----------------------
+### Local Install Setup (Recommended)
+
+I'm using Conda to manage and create the python environment. For an in-depth explanation of this workflow see the excellent bog post by Tim Hopper, [My Python Environment Workflow with Conda](https://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/).
+
+
+Here is a video walk-through of the steps below on a Mac: [https://vimeo.com/230225216](https://vimeo.com/230225216).
 
 ### 1. Install Anaconda or MiniConda
 *If you already have Anaconda or Miniconda installed, skip to step 2.*
@@ -21,15 +33,15 @@ If you have limited space on your system you can download Miniconda. This will o
 
 
 ### 2. Clone the Training Repository
-Use git to clone the repository for the training session down to your computer. Use git so you can easily update the contents of the training repository. Remember to update the repository by running ```$ git pull``` the day before the training session to ensure contents are up to date. Here is the link to the repository: [https://github.com/juskaiser/FARCON_NLP](https://github.com/juskaiser/FARCON_NLP).
+Use git to clone the repository for the training session down to your computer. Here is the link to the main repository: [https://github.com/juskaiser/FARCON_NLP](https://github.com/juskaiser/FARCON_NLP).
 
 Navigate to your desired installation location in command line and clone the repository with the following commands:
 
-**Via SSH:** ```$ git clone git@github.com:juskaiser/FARCON_NLP.git```
-
-or
-
 **Via HTTPS:** ```$ git clone https://github.com/juskaiser/FARCON_NLP.git```
+
+Or
+
+**Via SSH:** ```$ git clone git@github.com:juskaiser/FARCON_NLP.git```
 
 
 ### 3. Create your Local Environment
@@ -62,7 +74,6 @@ You should see a result like this:
 # conda environments:
 #
 far_nlp                  /Users/Justin/anaconda/envs/far_nlp
-py2                      /Users/Justin/anaconda/envs/py2
 root                  *  /Users/Justin/anaconda
 ```
 
@@ -80,7 +91,6 @@ Now, run ```$ conda env list ``` a second time to verify the new environment is 
 # conda environments:
 #
 far_nlp               *  /Users/Justin/anaconda/envs/far_nlp
-py2                      /Users/Justin/anaconda/envs/py2
 root                     /Users/Justin/anaconda
 ```
 
@@ -97,9 +107,9 @@ See the conda documentation for more info on managing and switching between envi
 SpaCy installation instructions for troubleshooting & reference:
 [https://spacy.io/docs/usage/](https://spacy.io/docs/usage/)
 ### 5. Download the Data
-Download the data we'll use in the session from the dropbox link below. Unzip each each data file and place the unzipped file in the data directory.
+Download the data we'll use in the session from the link below. Unzip the file and place each unzipped data file in the data directory within FARCON_NLP.
 
-**Data for NLP training session:** [https://www.dropbox.com/sh/0jl09kew2wg3314/AADRoNVz0nMSbPHFXUgcJW-Ua?dl=0](https://www.dropbox.com/sh/0jl09kew2wg3314/AADRoNVz0nMSbPHFXUgcJW-Ua?dl=0)
+**Data for NLP training session:** [https://s3.amazonaws.com/farcon-nlp/data.zip](https://s3.amazonaws.com/farcon-nlp/data.zip)
 
 The structure for the FARCON_NLP directory should look like this after you've copied in the unzipped data files:
 
@@ -109,12 +119,9 @@ FARCON_NLP
 ├── Test.ipynb
 ├── data
 │   ├── amazon_electronics_reviews_subset.csv
-│   ├── sandisk_sd_card_reviews.csv
-│   ├── ...other data
-│   └── ...other data
+│   └── sandisk_sd_card_reviews.csv
 ├── environment.yml
 └── utilities.py
-
 ```
 
 ### 6. Configure Jupyter Notebook and Run the Test Notebook
@@ -124,7 +131,7 @@ Navigate to the FARCON_NLP directory in command line. From within the directory 
 $ jupyter notebook
 ```
 
-If your default browser doesn't launch with the Jupyter Notebook home page automaticly, check back in your terminal window. You'll probably see an error message like this:
+If your default browser doesn't launch with the Jupyter Notebook home page automatically, check back in your terminal window. You'll probably see an error message like this:
 
 ```
 Copy/paste this URL into your browser when you connect for the first time, to login with a token:

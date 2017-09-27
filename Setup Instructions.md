@@ -7,7 +7,7 @@ There are two ways to get setup for the NLP training session. The recommended op
 If you are unable to perform the recommended install option (below), you can use a Linux virtual machine preconfigured with everything needed for the class. To go this route, download and install VirtualBox on your system: 
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads). 
 
-Then, download the file for the preconfigured virtual machine here: [https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z](https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z). If you are having trouble unzipping the file use [http://www.7-zip.org/download.html](http://www.7-zip.org/download.html). Once you unzip the file you should be able to open it with VirtualBox and start the virtual machine. There is no need to download any other files mentioned in the steps below, as they are already included in the virtual machine.
+Then, download the file for the preconfigured virtual machine here: [https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z](https://s3.amazonaws.com/farcon-nlp/NLP+Environment+64-bit.ova.7z). If you are having trouble unzipping the file use 7-zip: [http://www.7-zip.org/download.html](http://www.7-zip.org/download.html). Once you unzip the file you should be able to open it with VirtualBox and start the virtual machine. There is no need to download any other files mentioned in the steps below, as they are already included in the virtual machine.
 
 
 -----------------------

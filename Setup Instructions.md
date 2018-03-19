@@ -154,6 +154,12 @@ Click the check box to enable *Collapsible Headings*. Also make sure that *Freez
 
 ![Enable Collapsible Headings](img/colapsable-headings.png)
 
+**Note: If you don't see the Notebook Extensions tab, you may need to run this command, and restart Jupyter Notebook:*
+
+```
+$ jupyter contrib nbextension install --user
+```
+
 
 #### Now Run the Test Notebook
 Let's use Jupyter Notebook to perform some tests on our installation. Navigate back to the Jupyter Notebook home location by clicking the *Files* tab. Then, Click on *Test.ipynb* to launch the *Test* notebook: 
